@@ -1602,10 +1602,10 @@ li .fa {
 }
 
 .mh-home .img-border {
-  height: 400px;
+  height: 440px;
   width: 400px;
   border: 20px solid rgba(0, 0, 0, 0.07);
-  margin: 0 auto;
+  margin:  auto;
   border-radius: 50%;
 }
 
