@@ -1602,12 +1602,22 @@ li .fa {
 }
 
 .mh-home .img-border {
-  height: 363px;
-  width: 330px; 
-  border: 20px solid rgba(0, 0, 0, 0.07);
-  margin:  auto;
+  width: 80vw;
+  max-width: 330px;
+  aspect-ratio: 1 / 1;
+  border: 5vw solid rgba(0, 0, 0, 0.07); /* por defecto, proporcional */
+  margin: auto;
   border-radius: 50%;
 }
+
+/* Para pantallas más anchas, fijamos el borde */
+@media (min-width: 768px) {
+  .mh-home .img-border {
+    border: 20px solid rgba(0, 0, 0, 0.07);
+  }
+}
+
+
 
 .mh-featured-project-img img {
   width: inherit !important;
