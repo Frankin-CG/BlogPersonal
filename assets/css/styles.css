@@ -1602,8 +1602,8 @@ li .fa {
 }
 
 .mh-home .img-border {
-  height: 440px;
-  width: 400px;
+  height: 363px;
+  width: 330px; 
   border: 20px solid rgba(0, 0, 0, 0.07);
   margin:  auto;
   border-radius: 50%;
